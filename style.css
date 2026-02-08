@@ -1,0 +1,53 @@
+body{
+ margin:0;
+ font-family: 'Segoe UI',sans-serif;
+ background:#f1f3f6;
+}
+.sidebar{
+ position:fixed;
+ width:230px;
+ height:100%;
+ background:#111827;
+ color:white;
+}
+.sidebar h2{
+ text-align:center;
+ padding:20px;
+ border-bottom:1px solid #333;
+}
+.sidebar a{
+ display:block;
+ padding:14px 20px;
+ color:#cbd5e1;
+ text-decoration:none;
+}
+.sidebar a:hover{
+ background:#1f2933;
+ color:white;
+}
+.main{
+ margin-left:230px;
+ padding:25px;
+}
+.card{
+ background:white;
+ padding:20px;
+ border-radius:8px;
+ box-shadow:0 5px 10px rgba(0,0,0,.1);
+ margin-bottom:20px;
+}
+button{
+ background:#2563eb;
+ color:white;
+ border:none;
+ padding:10px 15px;
+ border-radius:5px;
+ cursor:pointer;
+}
+input,select,textarea{
+ width:100%;
+ padding:10px;
+ margin:8px 0;
+ border-radius:5px;
+ border:1px solid #ccc;
+}
